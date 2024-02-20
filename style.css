@@ -1,0 +1,39 @@
+body {
+    background-color: #323232; /* Background color of the entire page */
+    font-family: 'Open Sans', sans-serif; /* Font Open Sans */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align vertically */
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+table {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    width: 33.33%; /* Adjust as needed */
+    height: 33.33%; /* Adjust as needed */
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px; /* Adjust as needed */
+    border: none; /* Remove default cell border */
+}
+
+td:not(:last-child) {
+    border-right: 5px solid white; /* Border between fields */
+}
+
+tr:not(:last-child) td {
+    border-bottom: 5px solid white; /* Border between fields */
+}
